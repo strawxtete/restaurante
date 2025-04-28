@@ -20,12 +20,12 @@ export default function Categories(props) {
                 <span> Entradas </span>
             </button>
 
-            <button onClick={props.onClickMassa} className={`${styles.btn} ${handleSelectedBtn('Massas')}`}> 
+            <button onClick={props.onClickMassas} className={`${styles.btn} ${handleSelectedBtn('Massas')}`}> 
                 <Image src={Massa} alt="Prato de Massa"/> 
                 <span> Massas </span>
             </button>
 
-            <button onClick={props.onClickCarne} className={`${styles.btn} ${handleSelectedBtn('Carnes')}`}>
+            <button onClick={props.onClickCarnes} className={`${styles.btn} ${handleSelectedBtn('Carnes')}`}>
                 <Image src={Carne} alt="Prato de Carne"/> 
                 <span> Carnes </span>   
             </button>
@@ -35,12 +35,12 @@ export default function Categories(props) {
                 <span> Bebidas </span>
             </button>
 
-            <button onClick={props.onClickSalada} className={`${styles.btn} ${handleSelectedBtn('Saladas')}`}>
+            <button onClick={props.onClickSaladas} className={`${styles.btn} ${handleSelectedBtn('Saladas')}`}>
                 <Image src={Salada} alt="Prato de Salada"/> 
                 <span> Saladas </span>
             </button>
 
-            <button onClick={props.onClickSobremesa} className={`${styles.btn} ${handleSelectedBtn('Sobremesas')}`}>
+            <button onClick={props.onClickSobremesas} className={`${styles.btn} ${handleSelectedBtn('Sobremesas')}`}>
                 <Image src={Sobremesa} alt="Prato de Sobremesa"/> 
                 <span> Sobremesas </span>
             </button>

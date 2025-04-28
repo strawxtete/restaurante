@@ -1,6 +1,6 @@
 .categories {
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -15,9 +15,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #cb6532e7;
+    background-color: #fff;
     border-radius: 5px;
-    border: unset;
+    border: 2px solid #cb6532e7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex-grow: 1;
 }
 
@@ -28,12 +29,18 @@
 }
 
 .btn span {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
+    color: #cb6532e7;
+}
+
+.btn:hover,
+.selectedbtn {
+    background-color: #cb6532e7;
+    cursor: pointer;
+}
+
+.btn:hover span {
     color: #fff;
 }
 
-.btn:hover {
-    background-color: #ce4906f1;
-    cursor: pointer;
-}
